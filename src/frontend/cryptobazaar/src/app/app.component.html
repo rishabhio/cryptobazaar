@@ -1,0 +1,24 @@
+<div [ngClass]="{'invisible': isClassVisible }">
+    <div style="text-align:center">
+        <h1>
+            Welcome to {{title}}!!
+        </h1>
+        <img width="300" src="assets/logo.png" />
+    </div>
+
+    <hr>
+    <div class="parent">
+        <button mat-button (click)="startAuth()" class="btn btn-lg btn-success riobtn"> Start using Crypto Bazaar </button>
+    </div>
+</div>
+
+<div [ngClass]="{'invisible': !isClassVisible }">
+
+    <div class="home">
+        <h2> Welcome {{ name }} </h2>
+        <h3> Account Id :: {{ account_id }} </h3>
+        <h3> Account Name :: {{ account_name }} </h3>
+        <hr>
+        <button mat-button (click)="logout()" class="btn btn-lg btn-danger"> LogOut </button>
+    </div>
+</div>

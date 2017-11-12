@@ -1,0 +1,23 @@
+{
+  "name": "article-engine",
+  "version": "1.0.0",
+  "description": "integrates different pieces together to form beautiful and informative tutorials ",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "keywords": [
+    "automation",
+    "articles",
+    "nodejs"
+  ],
+  "author": "@rio",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "marked": "^0.3.6",
+    "pug": "^2.0.0-rc.4",
+    "request": "^2.83.0"
+  }
+}

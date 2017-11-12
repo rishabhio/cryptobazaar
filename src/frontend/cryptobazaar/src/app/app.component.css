@@ -1,0 +1,24 @@
+.parent {
+    text-align: center;
+    padding: 40px;
+}
+
+.riobtn {
+    background: #009091;
+    color: #f2f2f2;
+    font-size: 24px;
+}
+
+.invisible {
+    display: none;
+}
+
+.home {
+    text-align: center;
+    padding: 40px;
+    color: #323232;
+}
+
+.home btn {
+    color: #fff;
+}
